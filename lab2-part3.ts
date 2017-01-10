@@ -20,7 +20,7 @@ class Account {
     }
 }
 
-class CheckingsAccount extends Account{
+class checkingsAccount extends Account{
     constructor(initialBalance:number, ownerName:string) {
         super(initialBalance, ownerName);
     }
@@ -44,7 +44,7 @@ class savingAccount extends Account{
     }
 }
 
-let checkings:CheckingsAccount = new CheckingsAccount(322, "Mine");
+let checkings:checkingsAccount = new checkingsAccount(322, "Mine");
 console.log("Making account with 322 and owner Mine");
 checkings.checkBalance();
 checkings.deposit(78);
