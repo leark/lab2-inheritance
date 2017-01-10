@@ -1,4 +1,4 @@
-class bankAccount {
+class CheckingsAccount {
     private balance:number;
     private ownerName:string;
 
@@ -20,7 +20,7 @@ class bankAccount {
     }
 }
 
-let myBank:bankAccount = new bankAccount(322, "Mine");
+let myBank:CheckingsAccount = new CheckingsAccount(322, "Mine");
 console.log("Making account with 322 and owner Mine");
 myBank.checkBalance();
 myBank.deposit(78);
